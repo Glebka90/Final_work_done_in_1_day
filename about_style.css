@@ -1,0 +1,54 @@
+.conteiner-1 {
+  width: 100%;
+  height: 100vh;
+  background: url(/img/about/фото.jpg) no-repeat center center;
+  background-size: cover;
+  font-size: 16px;
+}
+.questionnaire {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.my_foto {
+  border-radius: 20px;
+  box-shadow: -2px 0 5px black, 2px 0 5px black, 0 -2px 5px black,
+    0 2px 5px black;
+}
+.my_info {
+  width: 400px;
+  height: 600px;
+  margin-left: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+
+}
+.my_info__style {
+  margin: 0 10px;
+}
+.about {
+  overflow: auto;
+  font-size: 14px;
+}
+.city {
+  margin-bottom: 10px;
+}
+.background_conteiner-1 {
+  width: 400px;
+  height: 600px;
+  border-radius: 20px;
+  opacity: 0.5;
+  background-color: rgb(239, 239, 255);
+  box-shadow: -2px 0 5px black, 2px 0 5px black, 0 -2px 5px black,
+  0 2px 5px black;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}

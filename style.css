@@ -1,0 +1,407 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.header {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 99;
+}
+.form-menu {
+}
+.menu {
+  width: 750px;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu_btn__style {
+  width: 150px;
+  text-align: center;
+  position: relative;
+}
+
+.menu_btn {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu_btn:hover {
+  background-color: rgb(200, 200, 200);
+}
+.header_background {
+  width: 100%;
+  height: 100%;
+  background-color: gainsboro;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.content-1 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: url(/img/Итуруп.jpg) no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.wrapper_slider {
+  width: 820px;
+  height: 600px;
+  margin-left: 10px;
+  overflow: hidden;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  transition: 1s;
+}
+.block_slider {
+  width: 2355px;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  transition: 1s;
+}
+
+.block {
+  width: 600px;
+  height: 500px;
+  margin-top: 20px;
+  display: flex;
+
+  border-radius: 20px;
+}
+
+.block_img {
+  width: 600px;
+  height: 480px;
+  border-radius: 10px;
+}
+.block_info {
+  width: 650px;
+  max-height: 310px;
+  padding: 5px;
+  margin-top: 10%;
+  margin-left: -245px;
+  border-radius: 10px;
+  position: relative;
+  background-color: rgb(236, 236, 236);
+  opacity: 0.75;
+}
+.block_heading {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.block_text {
+  width: 350px;
+  display: block;
+  padding: 10px;
+}
+
+/* второй блок */
+.content-2 {
+  width: 100%;
+  height: 780px;
+  padding-bottom: 25px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: url(/img/Шикотан.jpg) no-repeat center center;
+  background-size: cover;
+}
+.block-2 {
+  width: 300px;
+  height: 550px;
+  margin: 0 10px;
+  padding: 0 10px 15px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  filter: brightness(0.7);
+  transition: 0.5s;
+  overflow: hidden;
+}
+.block-2_background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  background-color: azure;
+  opacity: 0.65;
+}
+.block-2:hover {
+  filter: brightness(1);
+  transition: 0.7s;
+}
+.block-2_img {
+  width: 350px;
+  height: 40%;
+  border-radius: 10px 10px 0 0;
+  transition: 8s;
+}
+
+.block-2_img:hover {
+  transform: scale(1.1);
+  transition: 8s;
+}
+.block-2_heading {
+}
+.block-2_text {
+  margin: 0 5px;
+}
+.block-2_button {
+  width: 125px;
+  height: 55px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  border: none;
+}
+.block-2_button:hover {
+  cursor: pointer;
+  background-color: rgb(117, 236, 196);
+  box-shadow: 0 5px 5px 0 #ddfd;
+}
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.contact {
+}
+.telefone {
+}
+.telefone_heading {
+}
+.telefone_number {
+}
+.email {
+}
+.email_heading {
+}
+.email_adres {
+}
+.adres {
+}
+.adres_heading {
+}
+.adres_adres {
+}
+.social {
+}
+.footer_icon {
+  width: 25px;
+  height: 25px;
+}
+.icon_block {
+  width: 100px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  transition: 0.7s;
+}
+.icon_block:hover {
+  transform: scale(1.2);
+  transition: 0.7s;
+}
+.facebook {
+}
+.facebook_icon {
+}
+.facebook_name {
+}
+.twetter {
+}
+.twetter_icon {
+}
+.twetter_name {
+}
+.vk {
+}
+.vk_icon {
+}
+.vk_name {
+}
+
+/* Блок кассы */
+
+.wrapper_payment {
+  width: 100%;
+  height: 100vh;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(./img/Шикотан.jpg) no-repeat center center;
+  background-size: cover;
+}
+.block-card {
+  width: 600px;
+  height: 565px;
+  margin: 55px 0 0 0;
+  box-shadow: 3px -3px 3px 3px black, -3px -3px 3px 3px black,
+    3px 3px 3px 3px black;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.background-card {
+  width: 600px;
+  height: 565px;
+  background-color: gray;
+  opacity: 0.4;
+  position: absolute;
+  z-index: 1;
+}
+.imags-card {
+  width: 400px;
+  height: 200px;
+  position: relative;
+}
+.img-card {
+  position: absolute;
+  transition: 1s;
+  z-index: 1;
+}
+.card {
+  width: 100%;
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-card {
+}
+.heading-card {
+  z-index: 98;
+}
+.ticket-form {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  z-index: 99;
+}
+.heading__margin {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.heading-name,
+.heading-number {
+  font-size: 18px;
+}
+.name,
+.number {
+  padding: 3px 0 3px 10px;
+}
+.text__width {
+}
+
+.text__width,
+.agreement {
+  width: 500px;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 10px;
+  background-color: rgb(255, 239, 219);
+}
+.select-card {
+}
+.agreement {
+  margin: 10px 0;
+}
+.agreement-heading {
+}
+.agreement-text {
+}
+.checkbox-agreement {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(255, 239, 219);
+}
+.wrapper-finish {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.finish-text {
+  width: 500px;
+  height: 400px;
+  text-align: center;
+  font-size: 24px;
+}
+
+/* gallery */
+
+.gallery {
+  min-width: 965px;
+  background: url(./img/Шикотан.jpg) no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.element-1__link {
+  width: 480px;
+  height: 270px;
+  padding: 0.25em;
+  transition: 0.5s;
+}
+.element-1__img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.element-1__link:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+/* Туры */
+.tur {
+  background-color:azure;
+
+}
+
